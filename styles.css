@@ -5,6 +5,7 @@
 
 nav, .sections > div, footer {
     display: flex;
+    width: 100%;
 }
 
 .books>img, .games>img, .crafts>img {
