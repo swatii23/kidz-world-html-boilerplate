@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+nav, .sections > div, footer {
+    display: flex;
+}
+
+.books>img, .games>img, .crafts>img {
+    width: fit-content;
+}
+
+.toCart {
+    display: flex;
+    background-color: rgb(37, 102, 192);
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer img {
+    width: 3em;
+    border-radius: 50%;
+}
