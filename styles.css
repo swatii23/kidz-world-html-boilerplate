@@ -137,3 +137,38 @@ footer > div:nth-child(2) {
 footer h3 {
     line-height: 2;
 }
+
+@media screen and (max-width: 768px) {
+    #top-texts {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sections > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-width > div > div {
+        width: 100%;
+        margin: 15px;
+        float: none;
+    }
+
+    .books, .games, .craft {
+        width: 100%;
+    }
+
+    .texts {
+        text-align: center;
+    }
+
+    footer {
+        padding: 1%;
+        justify-content: space-around;
+    }
+
+    footer > div:nth-child(2) {
+        margin-top: 10px;
+    }
+}
